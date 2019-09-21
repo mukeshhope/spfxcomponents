@@ -6,3 +6,6 @@ To use this the solution , clone this repository on to your desktop and run
 1. npm install
 2. gulp serve
 
+node version : 10.16.0
+SPFX version : 1.8.2
+
