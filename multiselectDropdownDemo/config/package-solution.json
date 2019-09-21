@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "multiselect-dropdown-demo-client-side-solution",
+    "id": "483f3620-8e24-4c51-8e4e-c94f2af1958a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/multiselect-dropdown-demo.sppkg"
+  }
+}
