@@ -48,7 +48,7 @@ export default class MultiselectDropdownDemoWebPart extends BaseClientSideWebPar
           {key:'4',text:'test option 4'},
 
         ]);
-      })
+      });
     }
     private onPropertyChange(propertyPath: string, newValue: any): void {  
       const oldValue: any = get(this.properties, propertyPath);  
