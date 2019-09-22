@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "save-for-later-webpart-demo-client-side-solution",
+    "id": "db000909-3e5e-4a67-9d43-d3c751fca6f9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/save-for-later-webpart-demo.sppkg"
+  }
+}
