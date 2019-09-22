@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "save-for-later-items-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/saveForLaterItemsWebpart/SaveForLaterItemsWebpartWebPart.js",
+          "manifest": "./src/webparts/saveForLaterItemsWebpart/SaveForLaterItemsWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SaveForLaterItemsWebpartWebPartStrings": "lib/webparts/saveForLaterItemsWebpart/loc/{locale}.js"
+  }
+}
