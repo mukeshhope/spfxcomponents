@@ -11,7 +11,7 @@ To use this the solution , clone this repository on to your desktop and run
 for detailed documentation go to:
 For multiselect webpart : https://tutorialsinhand.com/Articles/create-multiselect-dropdown-in-spfx-property-pane-with-custom-loadoptions.aspx
 
-for Save for Later Items : 
+for Save for Later Items : https://tutorialsinhand.com/Articles/saved-for-later-items-webpart-sharepoint-online-spfx.aspx 
 
 node version : 10.16.0
 SPFX version : 1.8.2
