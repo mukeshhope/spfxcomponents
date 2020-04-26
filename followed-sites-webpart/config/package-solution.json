@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "followed-sites-client-side-solution",
+    "id": "7c887cbe-b128-41d1-8cc7-b270b2b1f58b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.ReadWrite.All"
+      }]
+  },
+  "paths": {
+    "zippedPackage": "solution/followed-sites.sppkg"
+  }
+}
