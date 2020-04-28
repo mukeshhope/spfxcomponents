@@ -13,7 +13,7 @@ for detailed documentation go to:
 For multiselect webpart : https://tutorialsinhand.com/Articles/create-multiselect-dropdown-in-spfx-property-pane-with-custom-loadoptions.aspx
 
 for Save for Later Items : https://tutorialsinhand.com/Articles/saved-for-later-items-webpart-sharepoint-online-spfx.aspx 
-for followed sites webpart : https://tutorialsinhand.com/tutorials/sharepoint-framework-spfx-tutorial/spfx-basics/sharepoint-framework-tutorial.aspx
+for followed sites webpart : https://tutorialsinhand.com/tutorials/sharepoint-framework-spfx-tutorial/sharepoint-framework-webparts/get-my-followed-sites-sharepoint-online-spfx.aspx  and https://tutorialsinhand.com/tutorials/sharepoint-framework-spfx-tutorial/sharepoint-framework-webparts/get-my-followed-sites-sharepoint-online-spfx-using-ms-graph.aspx
 node version : 10.16.0
 SPFX version : 1.8.2
 
