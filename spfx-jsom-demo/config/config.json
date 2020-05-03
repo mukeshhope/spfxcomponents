@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-jsom-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxJsomWebpart/SpfxJsomWebpartWebPart.js",
+          "manifest": "./src/webparts/spfxJsomWebpart/SpfxJsomWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "sp-init": 
+    {
+        "path": "https://devtopsoe.sharepoint.com/_layouts/15/init.js",
+        "globalName": "$_global_init"
+    }, 
+    "microsoft-ajax": 
+    { 
+      "path": "https://devtopsoe.sharepoint.com/_layouts/15/MicrosoftAjax.js", 
+      "globalName": "Sys", 
+      "globalDependencies": [ "sp-init" ] 
+    },
+    "sp-runtime": { 
+      "path": "https://devtopsoe.sharepoint.com/_layouts/15/SP.Runtime.js", 
+      "globalName": "SP",
+      "globalDependencies": [ "microsoft-ajax" ] 
+    },
+    "sharepoint": {
+      "path": "https://devtopsoe.sharepoint.com/_layouts/15/SP.js", 
+      "globalName": "SP", 
+      "globalDependencies": [ "sp-runtime" ] 
+    }
+  },
+  "localizedResources": {
+    "SpfxJsomWebpartWebPartStrings": "lib/webparts/spfxJsomWebpart/loc/{locale}.js"
+  }
+}
